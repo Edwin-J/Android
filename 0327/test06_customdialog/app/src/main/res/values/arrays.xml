@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>SEL(인천)</item>
+        <item>PUS(부산)</item>
+        <item>TAE(대구)</item>
+        <item>KWJ(광주)</item>
+        <item>CJU(제주)</item>
+        <item>USN(울산)</item>
+        <item>KAG(강릉)</item>
+    </string-array>
+    <string-array name="city2">
+        <item>BJS(북경)</item>
+        <item>PVG(상해)</item>
+        <item>TAO(청도)</item>
+        <item>SHE(심양)</item>
+        <item>YNT(연대)</item>
+        <item>CAN(광주)</item>
+        <item>YNJ(연길)</item>
+        <item>SZX(심천)</item>
+        <item>DLC(대련)</item>
+        <item>CGQ(장춘)</item>
+    </string-array>
+</resources>

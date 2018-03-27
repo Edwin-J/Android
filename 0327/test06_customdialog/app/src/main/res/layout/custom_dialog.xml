@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="인원선택"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TableLayout
+        android:background="#eeffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+        <TableRow>
+            <TextView
+                android:text="성인(만12세이상)"/>
+            <EditText
+                android:id="@+id/num1"
+                android:hint="인원수"
+                android:inputType="number"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="유아(만2세이상 ~ 만12세미만)"/>
+            <EditText
+                android:id="@+id/num2"
+                android:hint="인원수"
+                android:inputType="number"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="성인(만2세 미만)"/>
+            <EditText
+                android:id="@+id/num3"
+                android:hint="인원수"
+                android:inputType="number"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
