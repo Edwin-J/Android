@@ -39,7 +39,7 @@
                 android:textColor="#000"
                 />
             <TextView
-                android:id="@+id/select_depart"
+                android:id="@+id/tickets_depart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -78,6 +78,7 @@
                 android:textColor="#000"
                 />
             <TextView
+                android:id="@+id/tickets_arrival"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"

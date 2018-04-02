@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Minjae\Desktop\zxcv\Android\0327\test06_customdialog\app\app.iml" filepath="C:\Users\Minjae\Desktop\zxcv\Android\0327\test06_customdialog\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/test06_customdialog.iml" filepath="$PROJECT_DIR$/test06_customdialog.iml" />
+      <module fileurl="file://C:\Users\Minjae\Desktop\zxcv\Android\0327\test06_customdialog\test06_customdialog.iml" filepath="C:\Users\Minjae\Desktop\zxcv\Android\0327\test06_customdialog\test06_customdialog.iml" />
     </modules>
   </component>
 </project>
