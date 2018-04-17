@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Alert Message">
+
+        <SwitchPreference
+            android:title="Notification On/Off"
+            android:key="message" />
+
+        <PreferenceScreen
+            android:title="Notify Keyword"
+            android:key="keyword_screen"
+            android:summary="Not Using Now">
+            <SwitchPreference
+                android:title="Keyword Notify"
+                android:defaultValue="false"
+                android:key="keyword"
+                android:summary="Keyword with Bold"/>
+            <ListPreference
+                android:title="Keyword Notify Sound"
+                android:entries="@array/array_voice"
+                android:entryValues="@array/array_voice"
+                android:key="keyword_sound_list"
+                android:summary="까똑"
+                android:dependency="keyword"/>
+        </PreferenceScreen>
+
+        <SwitchPreference
+            android:title="Sound On/Off"
+            android:key="sound"/>
+
+        <ListPreference
+            android:title="Notification Sound"
+            android:entryValues="@array/array_voice"
+            android:entries="@array/array_voice"
+            android:key="sound_list"
+            android:summary="까똑"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
