@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="데이터 설정">
+
+        <SwitchPreference
+            android:title="데이터 로밍"
+            android:summary="로밍 시 데이터 서비스에 연결"
+            android:key="roaming"/>
+
+        <ListPreference
+            android:title="기본 네트워크 설정"
+            android:entries="@array/네트워크"
+            android:entryValues="@array/네트워크"
+            android:key="network"
+            android:summary="LTE"
+            />
+
+        <PreferenceScreen android:title="APN" android:key="apn">
+            <ListPreference android:title="SKT_3G_INTERNET"/>
+            <ListPreference android:title="SKT_LTE_INTERNET"/>
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="네트워크 운영자"
+            android:summary="네트워크 운영자 선택"
+            android:key="manager">
+            <intent android:targetPackage="com.example.sunrin.test09_preferences"
+                android:targetClass="com.example.sunrin.test09_preferences.SubActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>
